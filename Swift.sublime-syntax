@@ -87,7 +87,7 @@ contexts:
     - match: '#(available)\b'
       scope: keyword.control
 ###################################################### VARIABLES
-    - match: \b(var|let|typealias|unowned)\b
+    - match: \b(var|let|typealias|associatedtype|unowned)\b
       captures:
         1: keyword.variable
 ###################################################### STRING
